@@ -34,7 +34,7 @@ export function classNames(names: Record<string, boolean | null | undefined>, ex
 }
 
 export function getComment(model: DeclarationReflection) {
-  const comment = model.comment || model.signatures?.[0].comment;
+  const comment = model.comment || model.signatures?.[0]?.comment;
   const summary = comment?.summary;
   if (!summary || !summary.length) return '';
 

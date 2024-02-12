@@ -1,4 +1,4 @@
-# @mxssfd/typedoc-theme
+# @nolosay/typedoc-theme
 
 - demo
   - [example](https://mengxinssfd.github.io/typedoc-theme/)
@@ -14,7 +14,7 @@
 ## Installation
 
 ```shell
-npm install typedoc @mxssfd/typedoc-theme -D
+npm install typedoc @nolosay/typedoc-theme -D
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ npm install typedoc @mxssfd/typedoc-theme -D
 use script command
 
 ```shell
-typedoc --plugin @mxssfd/typedoc-theme --theme my-theme
+typedoc --plugin @nolosay/typedoc-theme --theme my-theme
 ```
 
 or
@@ -32,7 +32,7 @@ use `typedoc.json`
 ```json
 {
   "$schema": "https://typedoc.org/schema.json",
-  "plugin": ["@mxssfd/typedoc-theme"],
+  "plugin": ["@nolosay/typedoc-theme"],
   "theme": "my-theme"
 }
 ```
