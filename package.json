@@ -1,15 +1,29 @@
 {
   "name": "@johancdev/typedoc-theme",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nolosay/typedoc-theme.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nolosay/typedoc-theme/issues"
   },
-  "homepage": "https://github.com/nolosay/typedoc-theme#readme"
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "prettier": "^3.0.3",
+    "typedoc": "^0.25.1",
+    "typescript": "^5.2.2"
+  },
+  "homepage": "https://github.com/nolosay/typedoc-theme#readme",
+  "scripts": {
+    "build": "tsc",
+    "example:build": "tsc && pnpm -C example build:docs"
+  }
 }
