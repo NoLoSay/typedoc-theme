@@ -1,11 +1,7 @@
 {
   "name": "@nolosay/typedoc-theme",
   "version": "1.0.0",
-  "description": "",
   "main": "dist/index.js",
-  "directories": {
-    "example": "example"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nolosay/typedoc-theme.git"
