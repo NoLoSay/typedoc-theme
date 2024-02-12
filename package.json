@@ -1,40 +1,19 @@
 {
   "name": "@nolosay/typedoc-theme",
   "version": "1.0.0",
+  "description": "",
   "main": "dist/index.js",
-  "repository": "https://github.com/nolosay/typedoc-theme.git",
-  "author": "NoLoSay <no.lo.pro@gmail.com>",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nolosay/typedoc-theme.git"
+  },
+  "author": "",
   "license": "MIT",
-  "packageManager": "pnpm@7.1.0",
-  "keywords": [
-    "typedoc-theme"
-  ],
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+  "bugs": {
+    "url": "https://github.com/nolosay/typedoc-theme/issues"
   },
-  "files": [
-    "dist",
-    "LICENSE",
-    "assets"
-  ],
-  "engines": {
-    "node": ">= 14"
-  },
-  "devDependencies": {
-    "@types/node": "^18.15.10",
-    "gh-pages": "^6.0.0",
-    "prettier": "^3.0.3",
-    "typedoc": "^0.25.1",
-    "typescript": "^5.2.2"
-  },
-  "peerDependencies": {
-    "typedoc": "^0.25.1"
-  },
-  "scripts": {
-    "ts-check": "tsc --noEmit",
-    "build": "tsc",
-    "example:build": "tsc && pnpm -C example build:docs",
-    "example:deploy": "gh-pages -d example/docs"
-  }
+  "homepage": "https://github.com/nolosay/typedoc-theme#readme"
 }
